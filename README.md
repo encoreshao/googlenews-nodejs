@@ -1,4 +1,4 @@
-# GoogleNewsScraper
+# GoogleNewsScraper - NodeJS
 
 GoogleNewsScraper is a Node.js module for scraping Google News search results. It utilizes Axios for making HTTP requests, Cheerio for parsing HTML, and Dateparser for parsing and manipulating dates.
 
@@ -27,7 +27,7 @@ googleNews.asyncSearch('Apple').then(results => {
 });
 ```
 
-### Example Data
+### Search Apple in Google
 
 ```
 [
@@ -145,5 +145,5 @@ GoogleNewsScraper is available as open source under the terms of the [MIT Licens
 ### Acknowledgements
 
 - [Axios](https://github.com/axios/axios)
-  [Cheerio](https://github.com/cheeriojs/cheerio)
-  [Dateparser](https://github.com/HenrikJoreteg/DateParser)
+- [Cheerio](https://github.com/cheeriojs/cheerio)
+- [Dateparser](https://github.com/HenrikJoreteg/DateParser)
